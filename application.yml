@@ -10,6 +10,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
     show-sql: true
 eureka:
   instance:
